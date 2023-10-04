@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">mobileAssign1</string>
+
+    <!--Labels-->
     <string name="yearsHint">Number of Years</string>
     <string name="mortgageHint">Mortgage Principle</string>
     <string name="interestHint">Interest Rate</string>
@@ -8,21 +10,5 @@
     <string name="titleText">Mortgage EMI Calculator</string>
     <string name="mortgageHelper">Please enter a mortgage amount</string>
     <string name="interestHelper">Enter the interest rate</string>
-
-    <!--Labels-->
-    <!--
-    <string name="titleText" translatable="false">Mortgage EMI Calculator</string>
-
-    <string name="principleText" translatable="false">Mortgage Principle</string>
-    <string name="principle_helper_text" translatable="false">Please enter a mortgage amount</string>
-    <string name="interest_helper_text" translatable="false">Enter the interest rate</string>
-
-    <string name="amort_label" translatable="false">Amortization Length</string>
-    <string name="interest_label" translatable="false">Interest Rate</string>
-    <string name="calculate_mortgage" translatable="false">Calculate Mortgage</string>
-
-    <string name="yearsText" translatable="false">Number of Years</string>
-    <string name="yearsHelpertext" translatable="false">Please enter how long the mortgage is</string>
-    -->
 
 </resources>

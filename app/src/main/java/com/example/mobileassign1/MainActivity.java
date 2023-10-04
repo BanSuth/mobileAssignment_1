@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         float rateV=(Float.parseFloat(rateS)/100)/12; // Converting to float and dividing by 100 then 12
         int monthV=Integer.parseInt(yearS)*12; // Converting to Int the multiplying by 12 to get months
 
-        double result= Math.ceil((prinV*rateV*(Math.pow((1+rateV),monthV)))/(Math.pow((1+rateV),monthV)-1)); //Calculating the EMI, then storing in result variable.
+        double result= Math.ceil((prinV*rateV*(Math.pow((1+rateV),monthV)))/(Math.pow((1+rateV),monthV)-1)); //Calculating the EMI, then storing in result variable. Rounds it up.
 
         binding.outputText.setText("Monthly Payment: $"+ result); //Displaying result to the user.
     }
